@@ -19,8 +19,12 @@ img {
   object-fit: contain;
 }
 </style>
-</head>
-<body>
+</head>                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./sw.js");
+}
+</script> <body>
 <img src="photo.jpg" alt="صورة">
 </body>
 </html>
